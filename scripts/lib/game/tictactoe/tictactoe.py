@@ -1,13 +1,13 @@
 import re
 import numpy as np
-from lib.game.game import BaseGame
-from lib.game.tictactoe import tictactoe_helpers
+from scripts.lib.game.game import BaseGame
+from scripts.lib.game.tictactoe import tictactoe_helpers
 from typing import List, Tuple
 
 Matrix = List[List[int]]
 
 
-class TicTacToe(BaseGame):
+class TicTacToeGame(BaseGame):
     """
     Biểu diễn một tập hợp con của trò chơi m,n,k tổng quát
     (https://en.wikipedia.org/wiki/M,n,k-game)

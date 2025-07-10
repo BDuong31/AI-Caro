@@ -25,7 +25,7 @@ game_button_path = './textures/images/gamebutton.png'
 game_button_AI_combat_path = './textures/images/gamebuttonAICombat.png'
 info_menu_path = './textures/images/info.png'
 font_path = './fonts/AndikaNewBasic-B.ttf'
-intro_path = './textures/videos/intro.mp4'
+# intro_path = './textures/videos/intro.mp4'
 
 fpsClock = pygame.time.Clock()
 

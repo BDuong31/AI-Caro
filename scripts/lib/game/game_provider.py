@@ -1,6 +1,6 @@
-from lib.game.tictactoe.tictactoe import TicTacToe
-from lib.game.caro.caro_19x19 import Caro19x19
-from lib.game.n_puzzle.n_puzzle import NPuzzle
+from scripts.lib.game.tictactoe.tictactoe import TicTacToeGame
+from scripts.lib.game.caro.caro_19x19 import Caro19x19
+from scripts.lib.game.n_puzzle.n_puzzle import NPuzzle
 
 def add_game_argument(parser):
     """
@@ -25,7 +25,7 @@ def get_game(args):
     if game_type == '0':
         return Caro19x19()
     elif game_type == '1':
-        return TicTacToe()
+        return TicTacToeGame()
     elif game_type == '2':
         return NPuzzle()
     else:

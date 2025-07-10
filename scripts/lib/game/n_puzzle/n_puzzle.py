@@ -2,8 +2,8 @@
 
 import numpy as np
 from typing import Tuple, List, Dict
-from lib.game.game import BaseGame
-from lib.game.n_puzzle.n_puzzle_helper import NPuzzleHelper, DIRECTIONS
+from scripts.lib.game.game import BaseGame
+from scripts.lib.game.n_puzzle.n_puzzle_helper import NPuzzleHelper, DIRECTIONS
 
 # Hằng số cho các hành động
 UP, DOWN, LEFT, RIGHT = 0, 1, 2, 3
